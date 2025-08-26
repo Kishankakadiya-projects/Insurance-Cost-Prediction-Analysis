@@ -1,0 +1,1191 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0520.1026                               -->
+<workbook original-version='18.1' source-build='2025.1.2 (20251.25.0520.1026)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='tidy_credit_behavior (1) (tidy_credit_behavior (1))' inline='true' name='federated.1317zy813nunfx11bubda0eybmdp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tidy_credit_behavior (1)' name='excel-direct.1jaendp1myhw4r12sbb8l0gdeqaa'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/kisha/OneDrive/Desktop/BA/Sem-2/Advance Computer application/Final Project/tidy_credit_behavior (1).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1jaendp1myhw4r12sbb8l0gdeqaa' name='tidy_credit_behavior (1)' table='[&apos;tidy_credit_behavior (1)$&apos;]' type='table'>
+          <columns gridOrigin='A1:N1636:no:A1:N1636:0' header='yes' outcome='2'>
+            <column datatype='string' name='resp_id' ordinal='0' />
+            <column datatype='string' name='video' ordinal='1' />
+            <column datatype='string' name='tagline' ordinal='2' />
+            <column datatype='integer' name='apply_lik' ordinal='3' />
+            <column datatype='integer' name='confidence' ordinal='4' />
+            <column datatype='integer' name='easy_choice' ordinal='5' />
+            <column datatype='integer' name='havecard' ordinal='6' />
+            <column datatype='integer' name='numcards' ordinal='7' />
+            <column datatype='integer' name='age' ordinal='8' />
+            <column datatype='integer' name='male' ordinal='9' />
+            <column datatype='string' name='highest_ed' ordinal='10' />
+            <column datatype='string' name='hh_inc' ordinal='11' />
+            <column datatype='real' name='engage_time_total' ordinal='12' />
+            <column datatype='integer' name='views_count' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N1636:no:A1:N1636:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>resp_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[resp_id]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>resp_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>video</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[video]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>video</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tagline</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tagline]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>tagline</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>apply_lik</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[apply_lik]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>apply_lik</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>confidence</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[confidence]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>confidence</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>easy_choice</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[easy_choice]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>easy_choice</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>havecard</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[havecard]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>havecard</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numcards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numcards]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>numcards</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>male</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[male]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>male</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>highest_ed</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[highest_ed]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>highest_ed</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hh_inc</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[hh_inc]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>hh_inc</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>engage_time_total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[engage_time_total]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>engage_time_total</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>views_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[views_count]</local-name>
+            <parent-name>[tidy_credit_behavior (1)]</parent-name>
+            <remote-alias>views_count</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='tidy_credit_behavior (1)' datatype='table' name='[__tableau_internal_object_id__].[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Apply Lik' datatype='integer' name='[apply_lik]' role='measure' type='quantitative' />
+      <column caption='Confidence' datatype='integer' name='[confidence]' role='measure' type='quantitative' />
+      <column caption='Easy Choice' datatype='integer' name='[easy_choice]' role='measure' type='quantitative' />
+      <column caption='Engage Time Total' datatype='real' name='[engage_time_total]' role='measure' type='quantitative' />
+      <column caption='Havecard' datatype='integer' name='[havecard]' role='measure' type='quantitative' />
+      <column caption='Hh Inc' datatype='string' name='[hh_inc]' role='dimension' type='nominal' />
+      <column caption='Highest Ed' datatype='string' name='[highest_ed]' role='dimension' type='nominal' />
+      <column caption='Male' datatype='integer' name='[male]' role='measure' type='quantitative' />
+      <column caption='Numcards' datatype='integer' name='[numcards]' role='measure' type='quantitative' />
+      <column caption='Resp Id' datatype='string' name='[resp_id]' role='dimension' type='nominal' />
+      <column caption='Tagline' datatype='string' name='[tagline]' role='dimension' type='nominal' />
+      <column caption='Video' datatype='string' name='[video]' role='dimension' type='nominal' />
+      <column caption='Views Count' datatype='integer' name='[views_count]' role='measure' type='quantitative' />
+      <column-instance column='[apply_lik]' derivation='Sum' name='[sum:apply_lik:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[confidence]' derivation='Sum' name='[sum:confidence:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[havecard]' derivation='Sum' name='[sum:havecard:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/kisha/AppData/Local/Temp/TableauTemp/#TableauTemp_0p8r9m019endzm1byjfhn1mq5kuq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/13/2025 07:42:25 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>resp_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[resp_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>resp_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1571</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RCA_S2' />
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>video</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[video]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>video</remote-alias>
+              <ordinal>1</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RCA_S2' />
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tagline</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[tagline]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tagline</remote-alias>
+              <ordinal>2</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RCA_S2' />
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>apply_lik</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[apply_lik]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>apply_lik</remote-alias>
+              <ordinal>3</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>confidence</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[confidence]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>confidence</remote-alias>
+              <ordinal>4</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>easy_choice</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[easy_choice]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>easy_choice</remote-alias>
+              <ordinal>5</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>havecard</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[havecard]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>havecard</remote-alias>
+              <ordinal>6</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>numcards</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[numcards]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>numcards</remote-alias>
+              <ordinal>7</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>8</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>57</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>male</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[male]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>male</remote-alias>
+              <ordinal>9</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>highest_ed</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[highest_ed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>highest_ed</remote-alias>
+              <ordinal>10</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RCA_S2' />
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hh_inc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[hh_inc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hh_inc</remote-alias>
+              <ordinal>11</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RCA_S2' />
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>engage_time_total</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[engage_time_total]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>engage_time_total</remote-alias>
+              <ordinal>12</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1557</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>views_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[views_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>views_count</remote-alias>
+              <ordinal>13</ordinal>
+              <family>tidy_credit_behavior (1)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1317zy813nunfx11bubda0eybmdp].[sum:apply_lik:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1317zy813nunfx11bubda0eybmdp].[sum:confidence:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1317zy813nunfx11bubda0eybmdp].[sum:havecard:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='tidy_credit_behavior (1)' id='tidy!credit!behavior (1)_C6C4B0080E1041F493FB8E5895CB9516'>
+            <properties context=''>
+              <relation connection='excel-direct.1jaendp1myhw4r12sbb8l0gdeqaa' name='tidy_credit_behavior (1)' table='[&apos;tidy_credit_behavior (1)$&apos;]' type='table'>
+                <columns gridOrigin='A1:N1636:no:A1:N1636:0' header='yes' outcome='2'>
+                  <column datatype='string' name='resp_id' ordinal='0' />
+                  <column datatype='string' name='video' ordinal='1' />
+                  <column datatype='string' name='tagline' ordinal='2' />
+                  <column datatype='integer' name='apply_lik' ordinal='3' />
+                  <column datatype='integer' name='confidence' ordinal='4' />
+                  <column datatype='integer' name='easy_choice' ordinal='5' />
+                  <column datatype='integer' name='havecard' ordinal='6' />
+                  <column datatype='integer' name='numcards' ordinal='7' />
+                  <column datatype='integer' name='age' ordinal='8' />
+                  <column datatype='integer' name='male' ordinal='9' />
+                  <column datatype='string' name='highest_ed' ordinal='10' />
+                  <column datatype='string' name='hh_inc' ordinal='11' />
+                  <column datatype='real' name='engage_time_total' ordinal='12' />
+                  <column datatype='integer' name='views_count' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name=' Confidence by Education &amp; Card Ownership'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Æ </run>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Confidence by Education &amp; Card Ownership</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tidy_credit_behavior (1) (tidy_credit_behavior (1))' name='federated.1317zy813nunfx11bubda0eybmdp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1317zy813nunfx11bubda0eybmdp'>
+            <column caption='Confidence' datatype='integer' name='[confidence]' role='measure' type='quantitative' />
+            <column caption='Havecard' datatype='integer' name='[havecard]' role='measure' type='quantitative' />
+            <column caption='Highest Ed' datatype='string' name='[highest_ed]' role='dimension' type='nominal' />
+            <column-instance column='[highest_ed]' derivation='None' name='[none:highest_ed:nk]' pivot='key' type='nominal' />
+            <column-instance column='[confidence]' derivation='Sum' name='[sum:confidence:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[havecard]' derivation='Sum' name='[sum:havecard:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1317zy813nunfx11bubda0eybmdp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1317zy813nunfx11bubda0eybmdp].[sum:confidence:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1317zy813nunfx11bubda0eybmdp].[sum:havecard:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1317zy813nunfx11bubda0eybmdp].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1317zy813nunfx11bubda0eybmdp].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1317zy813nunfx11bubda0eybmdp].[Multiple Values]</rows>
+        <cols>([federated.1317zy813nunfx11bubda0eybmdp].[none:highest_ed:nk] / [federated.1317zy813nunfx11bubda0eybmdp].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{4E959C15-D23C-488C-94EC-CA4B8F5EDCFD}' />
+    </worksheet>
+    <worksheet name='Age &amp; Income Segmentation'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Age &amp; Income Segmentation</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tidy_credit_behavior (1) (tidy_credit_behavior (1))' name='federated.1317zy813nunfx11bubda0eybmdp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1317zy813nunfx11bubda0eybmdp'>
+            <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column caption='Apply Lik' datatype='integer' name='[apply_lik]' role='measure' type='quantitative' />
+            <column caption='Hh Inc' datatype='string' name='[hh_inc]' role='dimension' type='nominal' />
+            <column-instance column='[hh_inc]' derivation='None' name='[none:hh_inc:nk]' pivot='key' type='nominal' />
+            <column-instance column='[age]' derivation='Sum' name='[sum:age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[apply_lik]' derivation='Sum' name='[sum:apply_lik:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1317zy813nunfx11bubda0eybmdp].[sum:apply_lik:qk]' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1317zy813nunfx11bubda0eybmdp].[sum:apply_lik:qk]' />
+              <text column='[federated.1317zy813nunfx11bubda0eybmdp].[sum:apply_lik:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1317zy813nunfx11bubda0eybmdp].[sum:age:qk]</rows>
+        <cols>[federated.1317zy813nunfx11bubda0eybmdp].[none:hh_inc:nk]</cols>
+      </table>
+      <simple-id uuid='{E05E5FFE-C7C3-487B-89A0-CE797F9C6913}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='960' maxwidth='1350' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98334' id='7' param='horz' type-v2='layout-flow' w='98814' x='593' y='833'>
+            <zone h='98334' id='5' type-v2='layout-basic' w='86962' x='593' y='833'>
+              <zone h='98334' id='3' name='Age &amp; Income Segmentation' w='43481' x='593' y='833'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98334' id='9' name=' Confidence by Education &amp; Card Ownership' w='43481' x='44074' y='833'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98334' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='11852' x='87555' y='833'>
+              <zone h='7604' id='8' name='Age &amp; Income Segmentation' pane-specification-id='0' param='[federated.1317zy813nunfx11bubda0eybmdp].[sum:apply_lik:qk]' type-v2='color' w='11852' x='87555' y='833'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7500' id='10' name=' Confidence by Education &amp; Card Ownership' pane-specification-id='0' param='[federated.1317zy813nunfx11bubda0eybmdp].[:Measure Names]' type-v2='color' w='11852' x='87555' y='8437'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98334' id='11' param='vert' type-v2='layout-flow' w='98814' x='593' y='833'>
+                <zone fixed-size='280' h='98334' id='3' is-fixed='true' name='Age &amp; Income Segmentation' w='43481' x='593' y='833'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7604' id='8' name='Age &amp; Income Segmentation' pane-specification-id='0' param='[federated.1317zy813nunfx11bubda0eybmdp].[sum:apply_lik:qk]' type-v2='color' w='11852' x='87555' y='833'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98334' id='9' is-fixed='true' name=' Confidence by Education &amp; Card Ownership' w='43481' x='44074' y='833'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7500' id='10' name=' Confidence by Education &amp; Card Ownership' pane-specification-id='0' param='[federated.1317zy813nunfx11bubda0eybmdp].[:Measure Names]' type-v2='color' w='11852' x='87555' y='8437'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{66D73D6B-93B9-44B3-84BD-EC4BCC82BB3F}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Age &amp; Income Segmentation'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1317zy813nunfx11bubda0eybmdp].[sum:apply_lik:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1317zy813nunfx11bubda0eybmdp].[none:hh_inc:nk]</field>
+            <field>[federated.1317zy813nunfx11bubda0eybmdp].[none:video:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FC7B1364-1CDF-4140-8B4D-96E7773A7407}' />
+    </window>
+    <window class='worksheet' name=' Confidence by Education &amp; Card Ownership'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1317zy813nunfx11bubda0eybmdp].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1317zy813nunfx11bubda0eybmdp].[:Measure Names]</field>
+            <field>[federated.1317zy813nunfx11bubda0eybmdp].[none:highest_ed:nk]</field>
+            <field>[federated.1317zy813nunfx11bubda0eybmdp].[none:tagline:nk]</field>
+            <field>[federated.1317zy813nunfx11bubda0eybmdp].[sum:havecard:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{659D4FBB-44F7-498D-A915-1EDD08C45AFE}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name=' Confidence by Education &amp; Card Ownership'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1317zy813nunfx11bubda0eybmdp].[:Measure Names]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Age &amp; Income Segmentation'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{E3458D7E-B779-434B-9A47-CC4CC8B9919D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name=' Confidence by Education &amp; Card Ownership' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Age &amp; Income Segmentation' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAapUlEQVR4nO3deXCbdZ7n8fej05IsW7Z8SL7vK85hHEKAJhAC0zAz0A3TdEMztV3bW9C9
+      MzvTVfvH1v61Re1M7e7U1tRu7+ww27U9hC4GWKCZkIZwJw0hECAHThw7seNDli1bki3bsm5L
+      ep79Izgkkwsrlm35+b3+sh/pefT18dUjPc9H30dSFEVBEFRKs9YFCMJaEg0gqJpoAEHVRAMI
+      qiYaQFC1Kxrg8wMv88zf/eZbb6Dn8Nv8r3/4Pzz38u8uLpNTCX6994WVqfBfCE+7+C//9W/4
+      h2f/Ny/987srvv2jBw8wPhe7Yvlrr/8WgJNHPye54o+6QSkp3nr9JX716+fwzUVuePfjRw5y
+      1uVmYtx7cdmM6yznpxZuqowTJ05c8zbdZd8pCqcmQpTKMZIKSIkF9r/5DhqDCUdlHRVWhcNf
+      nuH2e/6ApupSAPyeKeqbm0iljVdsfHzgFOcmArjH3Dz8g8dR5t0cOHiErbfdw9YmB/te3weW
+      Yh556Lt8/vHvmfR6MdkrkUN+UkY7j/7hbj79/Xu4Z2I89L2HyTfqmPe6aei6h8cfuI1gMIgi
+      p3j/7d8RTuXx8MMPcu7kp/QNezBb8mmsqWLC68Pj8dLZ0Uhf3yD3f+8HWFKzvPPBJzRv3UFT
+      sZYv+kaZ8rjZ/d2H+P2H72H3wk/+5G7eefMt4pj47t3bOXDgAFUNHZiMejSKzOEP38blC/HH
+      33+E8bOn8AZ8+OeS/OixRzHopJv6g20U+/7pH2m68/s8UGHml796nn//l3+OdJ1fzcm+IZ76
+      zi4844GLywKus4wUWGl2FmRcx4mTJ+ju7r7qbdpnnnnmmaVvUlE/J876uaPJTH+okIEP93PL
+      959AHjlOftttvPCrv6frli727T/AvXd/Bzkd56OPj3Di7Dh/8W9+xFc9vTidDhQ5zVen+zBG
+      JomXbOEPbynlrU/Oc/zLozz9s6eZGnfxxaF36H7gMar0AT7s8XL8k4/56Z/9Gftffo4f/Kuf
+      cfK9A+QXpXnzkyEaS3V80uNm+5ZWCspq0IQ9fPblcYJxCX//Yc5MazDFXAz6UgwMufjJjx/l
+      8JFjWBM+kuVb2FmV5tD5JE8+uJU33j7Gp4fepLlzK++88Qa1FVbOBS08+eAO9r93lEanle17
+      HkIKz1Dd0sngZ++iq9tBfGGaH37/Id59+wCFuijDURt/cv929r7wOtOjZ7j1gR9imD7HvKkS
+      h82U8R9rI/ng46M89MC9aHVG7ti5g+mxXp7d+1vOHDuCUljNC3//14x5pnnp1f20NTp49bV9
+      tG/bxgfvf0Rsepj3Dn9J31fHKWm7nbOfvMGXJ0/Tc26Mya8O8s6JAT5/73WU4jY+f/dlvjhx
+      itPnJ9BHpnjr4Cd8dOgwm7fvwKCVOHzwAO7xSfbv209NbTm/fecLtrVV8H/3vnL5HuDIuwcI
+      RVMccyn4eg/wxF11vPiPL+C0mfhRqZ5Cu5POzVtoau0AwNt3hIKO+/kLZ5T/9td/RfcfPH7Z
+      L0DSaKmurkSndyOlU2j1ejSSRE11Nb3HjlJSaEFJlxE966KssgqjVoPdUY3NbECLRGRhgebO
+      Lm69pY5uSQ+Ae+ArzJUdfK/rNv7uf/6SlioLW2+5n5ayO9EZ89j77EFefW0fm7ffRnq8h6qK
+      cozBKaoq7Wg0OpBT6Ew2tm7eTEtTMwnvWWqqq9Bq9UiXvCCcGBlgJAgOh4N0Wr7s54osLGCz
+      V6M3WZGUJHnmYspKrMwa9KSVy++raoqMoihIksTExDifHTrKT//859j1SZ599kXsVc38+Mkf
+      8/LeX2OramJ7dzeNVWUcAvpGvDz983/L4Mf/zAgKn352lFu/s4f5WAwkI48+8afY/Mf53dlJ
+      wlGJp3/2UwB++d//isr6drSLEaaDMfJLzFiKHPzo8Sfw9x/myFgaJTTJ2c8/Zus9D1zSAIrC
+      vM7Of/h33wMUXnvlVca9c9htZjRyhL7z09zaWcuBA+/gqG+lqsKBo+125j/ZywcuE5VVNYwN
+      n4Od7UiSBqejnIJCsBg0aLQmystKaCuXeW7vXsqqW3jkkT/ixed+jUar5YdPPsnhDw8B4HQ6
+      AXBUV9LUvYczzz/PO75zdN91P2UlUFHXxN7nnkfRGqlu72L3dzp5/oVXGckzcfd9e1hM69Bq
+      NfT39XFrfRkWgxa9uZCSQjMaXR5ORxm3dxSz/80DWO0O7myxU6TNQ9LqcZaV0FZezsH3P2BL
+      nYnQXID5hQV2GrW0VZTw8bFeHA4nbbftoffFF9l7UmH3Aw8x2XccDZBfVAp5+lX+L1u/bttU
+      wwuvvcXm2kI+PjnKA9tqefOtQzRZ5qns6MI/cu3X5gWGFF+e6mfg5FeU3nMrzsoqtmzdyvmR
+      CZgOf3NHSUM8HODcwDn6B1201dUgVTZiNeiwF1zYE4dnJvjiqz6GvzhG18NPkZYc/ObTMf7m
+      P/4R0vWiEG/8v98QIw+NHKO0YTv37uxcud9OFoR8w/zqpXepqy7DNxvl50//BO1aF6VyU2ND
+      jAdibO/qRCNJTIwMEEwZ6WiuY8o7idNZgX9qihKHA//UFM6KcianZqhwlHDy2Jc4qqrRmYoo
+      NkscO97D5u5bSQRnyC9xokuGmIlK2C0Sx06cZuv2HZj0Gs71nsRcUkNtxYX3qZOTk0Tmp9EW
+      OGioKmfBe5Z9n0zyk8f2XL8BBGGjmZkY4neHjvHEjx/HpJNEAwjqJk6ECaomGkBY1xKJRFa3
+      r7vxXYSrmfeeo8+jJ+w7B7JCRUszbY0t7N+3jz333IV/do6G+nqGhoZoamlDrxUnxzKxuLiI
+      0XjlSdaVIvYAN2FkoI8J7wyynEae9zPkCwJw7LPPiM35+O3+/ZhLqtAg3matV2IPkCGdwUxX
+      dzexuXEAbEVWFIOW0tISrEYDtqJ8WvKsuIYGcGzvQiuOx65LK34UaOnMnyCshFAohNVqzdr2
+      V/wlkCyLKICwftzoTbR4DyBsaIuLi9e9XTSAoGqiAQRVEw0gqJpoAEHVRAMIOWdsdIS0ohCY
+      /eajkzOBAIFA4Kr3909NcHZgiKsdnxQnwoSck07HcY1Nkk5GiMViKApEYzE0ioLdbr/i/iXl
+      ToKzZ1mUITbtQWu1Mef1E12Miz2AkHs0eguaVISUApFIlNm5ueve3z06jKO+mcjMFJIpn/6T
+      X6GR48xGFpe3B1AUhYGeo5S13U7YO8zkdJDa2kosOkjqCy9+BE0QsslRXo5RLzEfSZEIz2Iv
+      dWA2XutfWcFoNDI1MU59UxMsRrAUl1LV2AxjruVHIRYmB4gVtFJmSTM07EKS48xH0nRv24ws
+      y8iynJUoRCQS4aWXXuKpp54C4JVXXqG9vZ3JyUmsVitFRUVMTk6yc+dO8vPzV/zxhRvTaDRo
+      NBoSicQNT0B9G7IsE41GycvLy3gbsVgMk+naT8zL3AOkcLkmSJXkgylBWWUt8/4Jqk0K0/Nh
+      yoouZDa0WUh+FRYW0t7ejk6nQ1EUmpubGR0dpbOzk56eHqamprDb7bjdbrZs2bLijy98e0aj
+      ccUizBqN5qayQDqd7rrrL6sBJEnHljv2XLassLYuo8KWa3Z2FpfLxeDgIDqdjng8TlFREbFY
+      DIvFQktLC0NDQ9hstlWpR7g5Xo8b97gPm91KKhHFYLCxEI9QUGAjHPChNRXQ2dGS9TpWPA2a
+      TqezsgdYkkgkkCQJg8GQtccQsi80N81kIIxZk2I2GAQ5j6auTfhGzwBlQIT6xgbCN5kGvVGa
+      dN0fBg0PufG+eXDZ65Xs3oltW3sWKhJWgts9ji6vAMmox5hnotBWzPCZPuzlFYQDHrSm1dmT
+      r/sGiAy7Gfofzy97PX2xTTTAOrZp6y1XLFsaikb5lcfys0WcBxBUTTSAoGqiAQRVEw0gqNqy
+      GyAWDrKYhsVYGLfHSzweR5FTRKPZHWAkCNmwrAZQFAX3YA9zMYUzZ84gyzI+n5fR8+eR9GIs
+      uJB7lnkmWMLpcBBDQWe0QGSBkJQmEUlRq5NIp9PI8oWLIqwUWU5nuJ5MKpVasTqEG1vKAn0b
+      Xo8b33SQ6hoHfn+AqkoHI6MT2MudF88DNNbXZLniDLJAU4EYJKZwlhYxF0tTVVyI1WxgPhjG
+      blv5LJBGk9m2NBoNOt26P82hWqWlpUzPRfBMeDAY9IwMjtPY1Ylv9Ax6YznIEZSvw5U380SW
+      Tqevu/6ys0Ctm7d980NccptdJBOEZThx/DgFdifmPAOhSByzRcfAmTNfZ4HG0ZoKkL7eo9zM
+      E5lWq73u+uIpUlgTO+6469o31lWvWh3iMKigaqIBBFUTDSCommgAQdVEAwiqJhpAULVlj0WZ
+      GDlHUXU781MjxGUdJUUFWIwawkk9RWIsipBjln0ewCgliSwqLCwsoLcUMeP3MBKV2ba1U0Qh
+      VG45UYj1YtlZoLw8IzGgqrYBj9uNwZqPTYkSS8pYDBdiCyIKIeSKZWeB/CHQpiYxWvQUOyop
+      zDdhNBqIRuNgMGerTmGDWQrDdWzt5PQXX9CxrYPzg+71HYaTJB1Nra1Xvc1iEf/8wre3FIab
+      nRpHZ7Ti98zQ2LlpfYfhBGGlLIXhFI2WhTkfBbZaEYYT1OPSMJzDUQlA/dICEYYThNUhGkBQ
+      NdEAgqqJBhBUTTSAoGrLzgL1fXmI0k17sCT9HOt30VBVhkGSMdic4hJJQs5ZdhSiprqKKDI9
+      vX3IKYVwxEwsIdNdnSeyQCq34bNAipJifDKAEsvnO7t2Mz4xgV6vw6LXZO0SSSILJGTTsqMQ
+      m7bfcfH76qqqi19nfg0PQVg74ilSWBOXTYbz+bAVleD3z6zvMJwgrJSlMFxhkZ35GT/B6XkR
+      hhPUYykMN9TfQ0zOo9KeL8JwgnpcbTJcacXX7ylFGE4QVodoAEHVRAMIqpbhWJQ2gl4X4UUo
+      LykSY1GEnJXhWBQJqzUf35iPaTkqxqIIgAqiEN+MRblwiSSjkgRjkRiLIuSsjMeiaI0SNmcV
+      dptVjEXZYAYHB/H5fNx1110sLCzw/vvv8+ijj3Lo0CFqa2txu93Issx9992HJElrXe5NEWNR
+      hCu0tLQwOTkJQEFBAaWlpfh8PrxeLwaDgbm5Oebn50mlUuhz/OqgufWCTVgV/f399PT04PV6
+      8fl89PT0EAwG0el0xGIxGhoacDqdK/pSd62IF8nCFTo6Oujo6GBiYoLKykp+8YtfANDW1rZi
+      j7EUhnM6i/H7AlTWVjM+5hFhOGHtJMZcpBcWLn5fDMTmZm+4nmlTJ9Iyj/4sheEWQgk2bW7i
+      84On2HLvThGGE9bO9D89T+TLz5e9XvOr+5GMxmWtsxSGM+oVzvSeo6KpUoThBPW4NAy3FH2r
+      XVogwnCCsDpEAwiqluFYlHtJzboY985SXm4nT4xFEXJURmNRYkiYzSZKSstIJxbwRNI5NRYl
+      EAhQUFCAXq9nfn6eQCBAVVUVvb29dHV1cfr0aTZt2oTBYLiZ0nNOpn+3dDqNnEpt/CzQxbEo
+      UQ/phSlMBXashXbKS3JnLEo6nebIkSPs2rWL0tJSenp6MJvNDA4O0tjYyL59+7jjjjs4evQo
+      e/bsudnyc0qmsQatVosmR3NXNzEWpfKy23JlLIpWq6X1kjhHXl4eVquVUCiEx+OhubmZwcFB
+      otHoGlYprJbc2l+tgMXFRcbHxxkZGeHUqVOUlZURCoVoa2tDkiQcDgeSJHHXXVd+ZlXYeHJz
+      v3UTDAYDDz744GXLWlpaAKitvXAkurKy8or1hI1JNQ2QjoSZ/tv/vOz18jZ3YXvkiSxUJKwH
+      qmkAUini/b3LXk1bXJKFYoQZrwdPIIQtTyISi2Aw2FiIR76OQvjQmgro7GjJeh3qaQBhXSlx
+      VDIbGkSjkUgmZZKJKK1dnfhGz1BgqwZEGE7YwLweN4GZAE6nE2OeiUJbMcNn+rCXV1yMQ4sw
+      nLBhOSprcFRenvd3Op0Xvii3r1odyz4MGgsHWUyDnFokFIkRj8dR5BTRaCIb9QlCVi07C+Qe
+      7MHWcjcs+JiPLpKn15KOx3A2XP2zwoKwni07C+R0OIgBpeVOQq4xkokIwUiKWp20rrNAcjqz
+      7Siyopr5QiILdAOKkmIqEIOEh5QmQSQcpbKmmvo6A/PBMHbb+s0CpTOsSdJIqpkvJLJANyBJ
+      Olo3b7v4fWXtN7fZ1RWcFDaI3NpfCcIKEw0gqJpoAEHVRAMIqpabb92FnLcUhnMWmZldiFJu
+      tzE6NS3CcII6LIXhZmZm0Rr0nB90s+n2W0UYTlCHpTBcfX0ts7Nz1DbVrP8wnKIoDPQcpazt
+      dhY8g0RSGuxFVsw6SOoLxVgU4Vu7NAzncFQAUF7uuHDjKobhlh2FqCi3E0srpDVGrHqZ+WCA
+      iUia7m3lIgqR40QU4gYUJYXLNUGqJB/TYpC5pERJcQFFJmXdj0URUYgbE1GIG5AkHVvuWJqV
+      Iz44LuS+3NpfCcIKEw0gqFpuvnATcsqp458SkbUUF5bR1tqw1uVcRuwBhKzTG4wM9/eiyctf
+      61KuIBpAyD45TVGxncXk+jucfO0GUBQWFhZIJpOrWI6wYUk6EvHwWldxhWs2QHR6iBf3f0jv
+      qVOrWY+wwUy5Bjg34mExmaKwsPDi8hmvh1N950BJ8eHb7xGc83HydC9DrnF6Thynt3+QlTud
+      em3XfBNsKq6mrugsMeXqdwnNzRBXDFjNBowGHbF4GrN5eVcKFDY+Z10rm2OLeDwedPpvPje7
+      FIZznT8Heh1ut5fG9s3MuM9iLXQC8bUNw8UCYwRiElO9J0GSuHP71ou3KYqMxz+LnEwStlpQ
+      xFgU4Tqii2kioRn8Xj91jiLgQhguGolS27kVm72CfJuV4YGzlFU1EPo6DKdZyzCcwVpKd5eJ
+      ZDRIWenlA2IlJAwaGdd0gCoDJJMysqyILFCOy0YWyOc+j8czRXHVZm7Z3Hxx+aVhOKO9GIDW
+      jk0AFBU0ZVRHJq7aAIqicOz4STzuEXQVt7Bli/PyO0hQUFDAtu5qzAYtRqOBaDSO1mgGRBYo
+      V2UjC1TirMHpm2HU1U+v1UZXW+1V77dWrvmX1Wi16HU6NFf9x5EoKa+4bInFYl7p2oQNYC7g
+      p7y2lW233k5m7ZVdV20ASZK47c7dwG5xGFS4KSWO1bvqeyZueCJMr9evRh2CsCbEmWBB1UQD
+      CKomGkBQNdEAgqqJBhDWhCKnWAhFkFOLjIy4SCsKk+NukmmFuRkvC5H4qtSR2RkeRaG35ySR
+      lISjrBijJGOwOcVYFOFbC8zM4JsNUlPhoLxYT++J05TW1zE8PACyHpjH2taW9ToyPsUpaSS0
+      ksRiIsJMJE13dZ6IQuS41RyLUlLmYDa4gCQnmQgkqSqzordaic9NgObCdJF1PRnOYDAiSxL5
+      hcU4SzRiLMoGsJpjUZbCcAGDEVIJjOVVTA6tozDcdUkSLe2bLltkzWhDglpd7TKpaxGGE2+C
+      BVUTDSCommgAQdVEAwiqJhpAUDXRAIKqiQYQVC3jKITbNcxceJGa6gryjRrCST1FIgoh5JiM
+      T4RV1zWSGBom4PcwGpXZtrVTlVGIdDrNRx99RENDA9PT0yiKQjweR5Ikdu3aldFjrpXVjEKE
+      5gPMx9KU5hsYHvfS0tLIyODgZWeCKx0lN97QTcr4HHNoZhKr3UkiNI1NiRJLylgMF+IGaopC
+      TE5OMjc3h9/vp7W1FZfLhU6nu/jPlEsxitWMQujzLMSm3UxGtbQ3V3D86Fe03radGfdZwEYy
+      HESWi9dvFkhnKcJhNhM3fzMWBYP6JkMUFxej1WqJRqO8+uqr7N69m8HBQWBlnwg2mry8vAtf
+      pFOEQmFM+SbCoRBJWQtyHEiuv6tEXspsvvDPvvSDqHUsSn5+Po899hgA999/PwDt7e1rWVJO
+      8HrcKLJCRX0Dfp+fzm2dTE2M09jYSnjOd+EyqatQR+7sn9cReWoA0ovLWkcyFyEVV2Wpotzj
+      qKzh64uiUlN94XpzFdUXwnFFJY5rrLXyRANkIP3u30LQu6x1pE33obv/L7NUkZApcR5AUDWx
+      BxA2vPDBQ0Q+/fSK5cU//deiAYSNL+X3k+g/e8VyORYTL4EEdRMNIKhaxi+BPO4R4rIei0mP
+      WQdJfaEYiyLknAzDcDIejxejuZD0IkxE0nRvK1dPFiiDny8XxqusZhZovcg4DJefbyaeWESy
+      FVFtUlQ1FiWZQWYmF8arrGYWaElobobxKT91DY2MjwzlShhOomPztpWtRFClYHAelEWG+wep
+      6dyUlTCcfI09W1qWxWFQYW2FInFqKh0MDExkLQzHNfZsWo1GHAUS1lZzcyO+uQRdO7qRokEa
+      G1spL7FQUV0nwnDCxqczmGisv3DlyLUIw4k9gKBqogEEVRMNIKiaaABB1TJugIB/iqFRN/F4
+      HEVOEY0mVrIuQVgVGTaAgmvMhdVqxefzMnr+PJK4oLaQgzLMAsEt23dyrq8PjUEiHElRq5NE
+      Fmi52/kX9u/fz65du3C73ciyTCKRIBQKcd9992UcU1hWjSIL9O1NjI2gM1spLS6kqc7AfDCM
+      3SayQMvZzqVGRkawWCwEg0FisRg6nY6Wlhb6+/vR6XSr0gBrkQVaazc1Ge5SdsNKlKNekiTh
+      8/nQ6/WkUimmp6c5fvw4O3bsWOvSsioZDzPsmqC2vh73cM6E4YSVVl9fT319/VqXseqGzg+j
+      0enxusZwNLWLMJxaKKkEyuz5Za8nmYqRrBVZqGhtGAx6yqsqOX+6H0NJ+aqH4UQDrJXYLKnf
+      /6dlr6Zp/C667T/LQkFro6GllbGxCbbu3IlXTIYT1EaStNTViTCcIKwJ0QCCqokGEFQt4/cA
+      qUSYk32j1FSWirEoQs7KqAEURcHlnqLAmkc4GBBjUTLZTqb1KNkbryKiEMug1ciMjXmorq2n
+      ugQxFmWZ21G0WuRM6pGyN15FRCG+JUmSqG9spb6xdaXrEYRVlVv7K0FYYaIBhDU3cv48qXSS
+      gf4+5hZiuEeH8HhnVuWxc/OFm7BhhOen8fnnMerHRRhOUJ+5+QVSiRDhmAnWYDKcaABhTVXX
+      NVJaVoHBlCfCcII65ZkvnEAVYThBWGUZ7gEUZqd9xGUdxYX5GA06YvE0ZrNxZasThCzL+CWQ
+      Kb+AicEhEvEClHgMZ4M4KSbknv8PGtx0qKO4CqoAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
